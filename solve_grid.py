@@ -1,4 +1,8 @@
-#!/usr/bin/env python3
+# =============================================================================
+# ARQUIVO GERADO INTEIRAMENTE POR IA
+# Modelo: Claude 3.7 Sonnet (Anthropic)
+# =============================================================================
+
 import os
 import sys
 import subprocess
