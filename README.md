@@ -33,6 +33,32 @@ Conforme exigido nos requisitos do trabalho, implementamos múltiplas heurístic
 
 ## Como Executar
 
+### Comandos para Cada Grid
+
+Para executar o solver para cada um dos grids disponíveis, use os seguintes comandos:
+
+#### Grid 11x11:
+```bash
+python3 solve_grid.py grid-11x11-20W-83L-38B.txt
+```
+
+#### Grid 15x15:
+```bash
+python3 solve_grid.py grid-15x15-34W-169L-56B.txt
+```
+
+#### Grid 25x25:
+```bash
+python3 solve_grid.py grid-25x25-88W-400L-225B.txt
+```
+
+### Para Executar Todos os Grids em Sequência:
+```bash
+python3 solve_grid.py grid-11x11-20W-83L-38B.txt && \
+python3 solve_grid.py grid-15x15-34W-169L-56B.txt && \
+python3 solve_grid.py grid-25x25-88W-400L-225B.txt
+```
+
 ### Fluxo Completo Automatizado
 
 A maneira mais simples de executar todo o processo para um grid específico é usar o script `solve_grid.py`:
