@@ -1,0 +1,76 @@
+Loaded 1812656 words grouped by length
+  Length 1: 1 words
+  Length 2: 131 words
+  Length 3: 267838 words
+  Length 4: 532242 words
+  Length 5: 402273 words
+  Length 6: 190063 words
+  Length 7: 111031 words
+  Length 8: 72658 words
+  Length 9: 48705 words
+  Length 10: 46933 words
+  Length 11: 35842 words
+  Length 12: 20997 words
+  Length 13: 19979 words
+  Length 14: 14670 words
+  Length 15: 35732 words
+  Length 16: 3871 words
+  Length 17: 2690 words
+  Length 18: 1430 words
+  Length 19: 1245 words
+  Length 20: 870 words
+  Length 21: 2829 words
+  Length 22: 89 words
+  Length 23: 463 words
+  Length 24: 12 words
+  Length 25: 17 words
+  Length 26: 6 words
+  Length 27: 4 words
+  Length 28: 6 words
+  Length 29: 9 words
+  Length 30: 3 words
+  Length 32: 1 words
+  Length 34: 1 words
+  Length 35: 3 words
+  Length 36: 4 words
+  Length 37: 1 words
+  Length 42: 1 words
+  Length 50: 2 words
+  Length 52: 1 words
+  Length 53: 1 words
+  Length 64: 1 words
+  Length 75: 1 words
+Starting solution at Mon May  5 02:29:55 2025
+Grid size: 11x11
+Number of slots: 20
+Total constraints: 62
+Starting backtracking search with MRV, Degree, and LCV heuristics...
+Current assignment size: 5/20 in 85.79 seconds
+Current assignment size: 10/20 in 90.58 seconds
+Current assignment size: 15/20 in 94.36 seconds
+Current assignment size: 20/20 in 96.06 seconds
+Solution found in 96.07 seconds!
+
+Total time: 96.07 seconds
+
+Word assignments:
+Horizontal at (5,0), length 11: SENATEPAGES
+Vertical at (0,10), length 9: OKLETSSEE
+Horizontal at (1,1), length 10: PANAMAJACK
+Vertical at (2,0), length 9: HANSSACHS
+Horizontal at (9,0), length 10: HORSERACES
+Vertical at (4,5), length 3: PEW
+Vertical at (7,2), length 4: ACRE
+Horizontal at (7,0), length 5: AEAEA
+Vertical at (3,3), length 5: ENATE
+Horizontal at (3,0), length 5: ABEET
+Vertical at (0,4), length 4: SANT
+Vertical at (7,4), length 4: AGES
+Vertical at (0,2), length 4: BARE
+Vertical at (3,7), length 5: ERASE
+Horizontal at (3,6), length 5: SEALE
+Vertical at (0,8), length 4: NAPA
+Horizontal at (7,6), length 5: TEASE
+Vertical at (7,6), length 4: THAW
+Vertical at (0,6), length 4: TABS
+Vertical at (7,8), length 4: AREA

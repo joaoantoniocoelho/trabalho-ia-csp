@@ -1,0 +1,157 @@
+Loaded 1812656 words grouped by length
+  Length 1: 1 words
+  Length 2: 131 words
+  Length 3: 267838 words
+  Length 4: 532242 words
+  Length 5: 402273 words
+  Length 6: 190063 words
+  Length 7: 111031 words
+  Length 8: 72658 words
+  Length 9: 48705 words
+  Length 10: 46933 words
+  Length 11: 35842 words
+  Length 12: 20997 words
+  Length 13: 19979 words
+  Length 14: 14670 words
+  Length 15: 35732 words
+  Length 16: 3871 words
+  Length 17: 2690 words
+  Length 18: 1430 words
+  Length 19: 1245 words
+  Length 20: 870 words
+  Length 21: 2829 words
+  Length 22: 89 words
+  Length 23: 463 words
+  Length 24: 12 words
+  Length 25: 17 words
+  Length 26: 6 words
+  Length 27: 4 words
+  Length 28: 6 words
+  Length 29: 9 words
+  Length 30: 3 words
+  Length 32: 1 words
+  Length 34: 1 words
+  Length 35: 3 words
+  Length 36: 4 words
+  Length 37: 1 words
+  Length 42: 1 words
+  Length 50: 2 words
+  Length 52: 1 words
+  Length 53: 1 words
+  Length 64: 1 words
+  Length 75: 1 words
+Starting solution at Mon May  5 02:35:45 2025
+Grid size: 25x25
+Number of slots: 88
+Total constraints: 264
+Starting backtracking search with MRV, Degree, and LCV heuristics...
+Current assignment size: 5/88 in 29.78 seconds
+Current assignment size: 10/88 in 70.59 seconds
+Current assignment size: 15/88 in 104.99 seconds
+Current assignment size: 20/88 in 114.90 seconds
+Current assignment size: 25/88 in 136.72 seconds
+Current assignment size: 30/88 in 148.46 seconds
+Current assignment size: 35/88 in 167.52 seconds
+Current assignment size: 40/88 in 186.84 seconds
+Current assignment size: 45/88 in 227.26 seconds
+Current assignment size: 50/88 in 249.49 seconds
+Current assignment size: 55/88 in 270.52 seconds
+Current assignment size: 60/88 in 284.37 seconds
+Current assignment size: 65/88 in 302.88 seconds
+Current assignment size: 70/88 in 305.40 seconds
+Current assignment size: 75/88 in 320.29 seconds
+Current assignment size: 80/88 in 322.84 seconds
+Current assignment size: 85/88 in 326.18 seconds
+Solution found in 327.31 seconds!
+
+Total time: 327.31 seconds
+
+Word assignments:
+Horizontal at (1,0), length 11: REVEREGREEN
+Vertical at (0,7), length 7: TREATED
+Horizontal at (3,5), length 9: STAKERACE
+Vertical at (0,5), length 6: PERSIA
+Horizontal at (5,0), length 9: CAKEMAKER
+Vertical at (0,13), length 10: FIVESENSES
+Vertical at (0,3), length 6: SERENE
+Vertical at (0,9), length 5: SEVEN
+Horizontal at (1,12), length 6: CITARA
+Vertical at (0,17), length 9: TAPENADES
+Horizontal at (5,16), length 9: CAMERAMAN
+Vertical at (0,23), length 8: SELENATE
+Vertical at (5,21), length 7: ADAMANA
+Horizontal at (9,18), length 7: NATAKAS
+Horizontal at (7,20), length 5: PACES
+Vertical at (0,19), length 7: PARSLEY
+Horizontal at (1,19), length 6: AWAKES
+Horizontal at (3,15), length 5: EPEES
+Vertical at (0,15), length 5: BAYED
+Vertical at (2,11), length 6: MANAPE
+Horizontal at (7,8), length 6: RELETS
+Horizontal at (5,10), length 5: EARED
+Vertical at (8,19), length 6: RAMSES
+Horizontal at (11,13), length 7: ASSURES
+Vertical at (10,17), length 7: CREEPER
+Horizontal at (15,13), length 7: EVADERS
+Vertical at (11,13), length 5: ANAME
+Horizontal at (13,13), length 5: AISLE
+Vertical at (13,15), length 6: SCARED
+Vertical at (15,19), length 3: SHE
+Horizontal at (17,18), length 7: SEVERAL
+Horizontal at (13,19), length 6: SHAPED
+Vertical at (13,21), length 5: ADAGE
+Vertical at (9,23), length 5: ALENE
+Horizontal at (11,21), length 4: ACEY
+Vertical at (6,9), length 6: GENEVA
+Horizontal at (9,5), length 7: ACAMERA
+Vertical at (8,7), length 7: HASSLED
+Horizontal at (11,7), length 5: SPADA
+Vertical at (9,11), length 5: APACE
+Horizontal at (13,5), length 7: ACETATE
+Vertical at (11,5), length 6: SPARED
+Vertical at (13,9), length 6: ABATED
+Horizontal at (15,0), length 7: REMAKES
+Vertical at (13,3), length 7: SCALENE
+Horizontal at (19,0), length 9: DELETEKEY
+Vertical at (16,7), length 9: NAYEPAISE
+Vertical at (17,1), length 8: ACEMAKER
+Horizontal at (17,0), length 5: MAVEN
+Horizontal at (17,6), length 4: EASE
+Vertical at (18,5), length 7: LETSSEE
+Horizontal at (23,0), length 6: REVERE
+Horizontal at (21,5), length 5: SCAPA
+Horizontal at (23,7), length 6: SEEMED
+Vertical at (15,11), length 10: SOWHATSNEW
+Horizontal at (17,11), length 6: WUSSES
+Horizontal at (21,11), length 9: SOUDANESE
+Vertical at (17,13), length 6: SEESUP
+Horizontal at (15,8), length 4: LAWS
+Vertical at (18,17), length 7: TAPERED
+Horizontal at (23,14), length 11: CAREFREEEEL
+Vertical at (19,19), length 6: EMEERS
+Horizontal at (19,16), length 9: LATERALED
+Vertical at (19,21), length 6: ABATES
+Vertical at (20,15), length 5: PAPAS
+Vertical at (15,23), length 5: ELATE
+Horizontal at (15,21), length 4: ARED
+Horizontal at (19,10), length 5: CAFES
+Vertical at (20,9), length 5: HARES
+Vertical at (7,5), length 3: ETA
+Horizontal at (7,0), length 7: MANAGER
+Vertical at (5,1), length 5: ABABA
+Horizontal at (11,0), length 6: SAWERS
+Vertical at (11,1), length 5: ABATE
+Horizontal at (13,0), length 4: DAIS
+Vertical at (7,3), length 5: ANELE
+Horizontal at (9,0), length 4: RAGE
+Vertical at (6,15), length 6: CACAOS
+Horizontal at (9,13), length 4: SOAR
+Horizontal at (7,15), length 4: AHEM
+Vertical at (0,1), length 4: SELA
+Horizontal at (3,0), length 4: DAVE
+Horizontal at (3,21), length 4: EWES
+Vertical at (0,21), length 4: RASE
+Vertical at (21,3), length 4: EPEE
+Horizontal at (21,0), length 4: CAKE
+Vertical at (21,23), length 4: EVER
+Horizontal at (21,21), length 4: ANEW
