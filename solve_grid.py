@@ -35,10 +35,14 @@ def run_command(command, description):
 def main():
     parser = argparse.ArgumentParser(description='Executa o fluxo completo de solução para um grid de palavras cruzadas')
     parser.add_argument('grid', help='Arquivo do grid a ser processado')
-    parser.add_argument('--wordlist', default='lista_palavras.txt', 
-                      help='Arquivo com a lista de palavras (default: lista_palavras.txt)')
+    parser.add_argument('--wordlist', default='input_files/lista_palavras.txt', 
+                      help='Arquivo com a lista de palavras (default: input_files/lista_palavras.txt)')
     
     args = parser.parse_args()
+    
+    # Adjust grid path if not already in input_files directory
+    if not args.grid.startswith('input_files/') and os.path.exists(f'input_files/{args.grid}'):
+        args.grid = f'input_files/{args.grid}'
     
     # Verifica se o grid existe
     if not os.path.exists(args.grid):
@@ -79,16 +83,15 @@ def main():
     # Calcular tempo total
     total_time = time.time() - start_total
     
+    # Encontrar os arquivos de saída
+    grid_name = os.path.basename(args.grid).split('.')[0]
+    solution_file = f"solutions/{grid_name}_solution.txt"
+    log_file = f"logs/{grid_name}_solution_log.txt"
+    
     print(f"\n{'#'*80}")
     print(f"# FLUXO COMPLETO FINALIZADO COM SUCESSO")
     print(f"# Grid: {args.grid}")
     print(f"# Tempo total: {total_time:.2f} segundos")
-    
-    # Encontrar os arquivos de saída
-    grid_name = os.path.basename(args.grid).split('.')[0]
-    solution_file = f"{grid_name}_solution.txt"
-    log_file = f"{grid_name}_solution_log.txt"
-    
     print(f"# Arquivo de solução: {solution_file}")
     print(f"# Arquivo de log: {log_file}")
     print(f"{'#'*80}\n")

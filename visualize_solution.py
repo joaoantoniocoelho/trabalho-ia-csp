@@ -80,6 +80,10 @@ def main():
     
     args = parser.parse_args()
     
+    # Adjust grid path if not already in input_files directory
+    if not args.grid.startswith('input_files/') and os.path.exists(f'input_files/{args.grid}'):
+        args.grid = f'input_files/{args.grid}'
+    
     if not os.path.exists(args.grid):
         print(f"Error: Grid file '{args.grid}' not found.")
         return 1
@@ -88,7 +92,7 @@ def main():
     solution_file = args.solution
     if not solution_file:
         grid_name = os.path.basename(args.grid).split('.')[0]
-        potential_solution = f"{grid_name}_solution.txt"
+        potential_solution = f"solutions/{grid_name}_solution.txt"
         if os.path.exists(potential_solution):
             solution_file = potential_solution
             print(f"Found solution file: {solution_file}")

@@ -316,8 +316,12 @@ class CrosswordCSP:
         solved = self.solve()
         
         if solved:
-            output_file = f"{grid_name}_solution.txt"
-            log_file = f"{grid_name}_solution_log.txt"
+            # Create directories if they don't exist
+            os.makedirs('solutions', exist_ok=True)
+            os.makedirs('logs', exist_ok=True)
+            
+            output_file = f"solutions/{grid_name}_solution.txt"
+            log_file = f"logs/{grid_name}_solution_log.txt"
             
             print("Writing solution to files...")
             self.write_solution(output_file)
@@ -332,12 +336,16 @@ class CrosswordCSP:
 
 def main():
     parser = argparse.ArgumentParser(description='Solve crossword puzzles using CSP')
-    parser.add_argument('grid_file', nargs='?', default="grid-11x11-20W-83L-38B.txt",
-                        help='Path to the grid file (default: grid-11x11-20W-83L-38B.txt)')
-    parser.add_argument('--wordlist', default='lista_palavras.txt',
-                        help='Path to the wordlist file (default: lista_palavras.txt)')
+    parser.add_argument('grid_file', nargs='?', default="input_files/grid-11x11-20W-83L-38B.txt",
+                        help='Path to the grid file (default: input_files/grid-11x11-20W-83L-38B.txt)')
+    parser.add_argument('--wordlist', default='input_files/lista_palavras.txt',
+                        help='Path to the wordlist file (default: input_files/lista_palavras.txt)')
     
     args = parser.parse_args()
+    
+    # Adjust grid path if not already in input_files directory
+    if not args.grid_file.startswith('input_files/') and os.path.exists(f'input_files/{args.grid_file}'):
+        args.grid_file = f'input_files/{args.grid_file}'
     
     if not os.path.exists(args.grid_file):
         print(f"Error: Grid file '{args.grid_file}' not found.")
